@@ -83,11 +83,24 @@
 .down,
 .toGo,
 .ballOn,
-.quarter {
+.quarter
+{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   place-items: center;
+}
+.setQuarter{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  place-items: center;
+  margin: 1rem;
+  border-radius: 4px;
+  
+}
+.first{
+    margin-bottom: 2rem;
 }
 
 .down__value,
